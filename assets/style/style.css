@@ -32,7 +32,7 @@ header {
 }
 
 .debug {
-  border: 5px dashed;
+  border: 3px dashed;
 }
 
 nav ul {
@@ -144,16 +144,93 @@ main section.quattro {
 
 /* sezzine 5 */
 
-main section.cinque{
+main section.cinque {
   background-color: #D3D3D3;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
-.img-tecnologia{
-width: 1700px;
-height: 1800px;
-background-color: #238B21;
+.img-tecnologia {
+  width: 1700px;
+  height: 1800px;
+  background-color: #238B21;
 }
 
 /* footer */
+
+.Foot-uno.container {
+  width: 1700px;
+  height: 700px;
+}
+
+/* colonne */
+
+footer section.foot-uno {
+  padding-top: 20px;
+  background-color: #23272A;
+  padding-bottom: 50px;
+}
+
+div .menu {
+  width: 550px;
+  height: 700px;
+  background-color: #F08080;
+}
+
+div .colonna1 {
+  width: 287.5px;
+  height: 700px;
+  background-color: #20B2AA;
+  border-color: white;
+}
+
+div .colonna2 {
+  width: 287.5px;
+  height: 700px;
+  background-color: #20B2AA;
+  border-color: white;
+}
+
+div .colonna3 {
+  width: 287.5px;
+  height: 700px;
+  background-color: #20B2AA;
+  border-color: white;
+}
+
+div .colonna4 {
+  width: 287.5px;
+  height: 700px;
+  background-color: #20B2AA;
+  border-color: white;
+}
+
+/* \colonne */
+
+/* footer 2 */
+.foot-due {
+  margin-top: 2px;
+  padding-top: 35px;
+  background-color: #23272A;
+}
+
+.box-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1700px;
+  height: 70px;
+  background-color: #7FFFD4;
+}
+
+.button2 button{
+  text-decoration: none;
+  border: none;
+  font-size: 26px;
+  background-color: #FFB6C0;
+}
+
+.logo2{
+  font-size: 28px;
+  background-color: #FFB6C0;
+}
