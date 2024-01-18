@@ -1,0 +1,44 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+font-size: 30px;
+}
+
+header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 17px;
+
+}
+.container{
+  display: flex;
+  max-width: 2000px;
+  margin: 0 auto;
+}
+
+.head{
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 2000px;
+height: 55px;
+}
+.debug{
+border: 3px dotted;
+background-color: #DAA521;
+}
+
+nav ul{
+display: flex;
+list-style: none;
+}
+
+li{
+padding: 10px;
+}
+
