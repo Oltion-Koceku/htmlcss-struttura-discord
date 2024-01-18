@@ -5,7 +5,6 @@
 }
 
 body {
-  background-color: #ADD8E6;
 }
 
 header {
@@ -14,20 +13,21 @@ header {
   align-items: center;
   padding: 17px;
   font-size: 28px;
-
+  background-color: #ADD8E6;
+  
 }
 
-main div{
+.box-hero div.container{
 display: flex;
 justify-content: center;
-margin-top: 50px;
-margin-bottom: 50px;
+padding-top: 50px;
+padding-bottom: 50px;
 background-color: #00008B;
 }
 
 .container {
   display: flex;
-  max-width: 2000px;
+  max-width: 1700px;
   margin: 0 auto;
   
 }
@@ -78,5 +78,47 @@ div .hero {
   background-color: #EE81EE;
 }
 
+main section.due{
+background-color: white;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+.img-rana{
+width: 1050px;
+height: 700px;
+background-color: #1D90FF;
+
+}
+
+.info-rana{
+width: 650px;
+height: 700px;
+background-color: #FFBFCB;
+}
+.img-rana{
+width: 1050px;
+height: 700px;
+background-color: #1D90FF;
+
+}
+
+.info-rana{
+width: 650px;
+height: 700px;
+background-color: #FFBFCB;
+}
+.img-rana{
+width: 1050px;
+height: 700px;
+background-color: #1D90FF;
+
+}
+
+.info-rana{
+width: 650px;
+height: 700px;
+background-color: #FFBFCB;
+}
 
 /* footer */
