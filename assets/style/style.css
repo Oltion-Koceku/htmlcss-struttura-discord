@@ -76,6 +76,7 @@ div .hero {
   height: 500px;
   background-color: #EE81EE;
 }
+
 /* sezzione 1 */
 main section.due {
   background-color: white;
@@ -95,6 +96,7 @@ main section.due {
   height: 700px;
   background-color: #FFBFCB;
 }
+
 /* sezzione 3 */
 main section.tre {
   background-color: #D3D3D3;
@@ -102,7 +104,7 @@ main section.tre {
   padding-bottom: 50px;
 }
 
- .reverse{
+.reverse {
   display: flex;
   flex-direction: row-reverse;
 }
@@ -119,6 +121,7 @@ main section.tre {
   height: 700px;
   background-color: #FFBFCB;
 }
+
 /* sezzione 4 */
 main section.quattro {
   background-color: white;
@@ -137,6 +140,20 @@ main section.quattro {
   width: 650px;
   height: 700px;
   background-color: #FFBFCB;
+}
+
+/* sezzine 5 */
+
+main section.cinque{
+  background-color: #D3D3D3;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.img-tecnologia{
+width: 1700px;
+height: 1800px;
+background-color: #238B21;
 }
 
 /* footer */
