@@ -4,8 +4,7 @@
   box-sizing: border-box;
 }
 
-body {
-}
+body {}
 
 header {
   display: flex;
@@ -14,22 +13,22 @@ header {
   padding: 17px;
   font-size: 28px;
   background-color: #ADD8E6;
-  
+
 }
 
-.box-hero div.container{
-display: flex;
-justify-content: center;
-padding-top: 50px;
-padding-bottom: 50px;
-background-color: #00008B;
+.box-hero div.container {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #00008B;
 }
 
 .container {
   display: flex;
   max-width: 1700px;
   margin: 0 auto;
-  
+
 }
 
 .debug {
@@ -68,7 +67,7 @@ nav ul {
 
 /* main */
 
-.box-hero{
+.box-hero {
   background-color: #00008B;
 }
 
@@ -77,48 +76,67 @@ div .hero {
   height: 500px;
   background-color: #EE81EE;
 }
-
-main section.due{
-background-color: white;
-padding-top: 50px;
-padding-bottom: 50px;
+/* sezzione 1 */
+main section.due {
+  background-color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
-.img-rana{
-width: 1050px;
-height: 700px;
-background-color: #1D90FF;
-
-}
-
-.info-rana{
-width: 650px;
-height: 700px;
-background-color: #FFBFCB;
-}
-.img-rana{
-width: 1050px;
-height: 700px;
-background-color: #1D90FF;
+.img-rana {
+  width: 1050px;
+  height: 700px;
+  background-color: #1D90FF;
 
 }
 
-.info-rana{
-width: 650px;
-height: 700px;
-background-color: #FFBFCB;
+.info-rana {
+  width: 650px;
+  height: 700px;
+  background-color: #FFBFCB;
 }
-.img-rana{
-width: 1050px;
-height: 700px;
-background-color: #1D90FF;
+/* sezzione 3 */
+main section.tre {
+  background-color: #D3D3D3;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+ .reverse{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.img-tre {
+  width: 1050px;
+  height: 700px;
+  background-color: #1D90FF;
 
 }
 
-.info-rana{
-width: 650px;
-height: 700px;
-background-color: #FFBFCB;
+.info-tre {
+  width: 650px;
+  height: 700px;
+  background-color: #FFBFCB;
+}
+/* sezzione 4 */
+main section.quattro {
+  background-color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.img-quattro {
+  width: 1050px;
+  height: 700px;
+  background-color: #1D90FF;
+
+}
+
+.info-quattro {
+  width: 650px;
+  height: 700px;
+  background-color: #FFBFCB;
 }
 
 /* footer */
